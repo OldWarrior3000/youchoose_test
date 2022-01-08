@@ -1,10 +1,10 @@
 #[allow(dead_code)]
 //mod util;
 
-use crate::util::{
-    event::{Event, Events},
-    StatefulList,
-};
+// use crate::util::{
+//     event::{Event, Events},
+//     StatefulList,
+// };
 use std::{error::Error, io};
 use proc_macro::Span;
 use termion::{event::Key, input::MouseTerminal, raw::IntoRawMode, screen::AlternateScreen};
